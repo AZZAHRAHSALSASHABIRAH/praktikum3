@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <table align="center" style="border: 2px solid;">
+        <tr>
+            <td style="padding-right: 100px;">Home</td>
+            <td style="padding-right: 100px;">Generate ink</td>
+            <td style="padding-right: 100px;">Transaction History</td>
+            <td style="padding-right: 100px;">Policy</td>
+            <td style="padding-right: 100px;">Logout</td>
+        </tr>
+    </table>
+    <table style="float: right; margin-top: 60px; margin-right: 5cm;">
+        <tr>
+            <td><label for="TH">Title Here</label></td>
+            <td>:</td>
+            <td><input type="text" id="TH"></td>
+        </tr>
+        <tr>
+            <td><label for="desc">Description</label></td>
+            <td>:</td>
+            <td><textarea name="" id="desc" cols="21" rows="8"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="AN">Account Number</label></td>
+            <td>:</td>
+            <td><input type="number" id="AN"></td>
+        </tr>
+        <tr>
+            <td><label for="bank">Bank</label></td>
+            <td>:</td>
+            <td>
+                <select name="Bank" id="bank">
+                    <option value="BCA">BCA</option>
+                    <option value="Mandiri">Mandiri</option>
+                    <option value="BRI">BRI</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="ACCH">Account Holder</label></td>
+            <td>:</td>
+            <td><input type="text" id="ACCH"></td>
+        </tr>
+        <tr>
+            <td><label for="TRS">Transaction</label></td>
+            <td>:</td>
+            <td><input type="number" id="TRS"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><small>if the transaction is for 3 person, choose 3 from the drop-down list</small></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="checkbox" id="mobile phone">
+                <label for="mobile phone">send to mobile phone</label>
+
+                <input type="checkbox" id="mail">
+                <label for="mail">send to email</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="MP">send to mobile phone</label></td>
+            <td>:</td>
+            <td><input type="text" id="MP"></td>
+        </tr>
+        <tr>
+            <td><label for="SE">send to enail</label></td>
+            <td>:</td>
+            <td><input type="text" id="SE"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="Generate Link"></td>
+        </tr>
+    </table>
+
+    <img src="poto/PB.jpg" alt="PB" style="height: 7cm; margin-left:7cm ;">
+
+</body>
+</html>
